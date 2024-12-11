@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(163, 74, 101); 
+
+}
+
+
+th,td{
+    border: 1px solid #1562a1;
+}
+
+table{
+    border-collapse: collapse;
+    width: 185px;
+    height: 250px;
+    text-align: center;
+}

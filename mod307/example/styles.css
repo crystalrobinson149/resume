@@ -1,0 +1,19 @@
+body{background-color: red;}
+
+section{ background-color: aqua;}
+
+
+
+
+h2{ padding-left: 20px;
+border-color: black;
+
+border: 2px dotted;}
+
+h3{ 
+padding: 50px;
+border:13px;
+
+}
+ul{ border: 10px dotted yellow;} 
+    /* #welcomeMessage{ background-color: coral;
