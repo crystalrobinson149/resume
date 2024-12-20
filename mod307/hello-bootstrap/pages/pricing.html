@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary" >
+      <div class="container-fluid">
+        <a class="navbar-brand"> <h1>The Pink Shop</h1></a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <br />
+        <form>
+          <div class="mb-1">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-1">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-1 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <h1>Departments</h1>
+
+    <div class="row">
+      <div class="col-4">
+        <nav
+          id="navbar-example3"
+          class="h-100 flex-column align-items-stretch pe-4 border-end"
+        >
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Beauty</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-1-1">Hair</a>
+              <a class="nav-link ms-3 my-1" href="#item-1-2">Nails</a>
+            </nav>
+            <a class="nav-link" href="#item-2">Outdoors</a>
+            <nav class="nav nav-pills flex-column">
+              </nav>
+            <a class="nav-link" href="#item-3">Landscape</a>
+            <nav class="nav nav-pills flex-column">
+            </nav>
+        </nav>
+          <nav
+            id="navbar-example4"
+            class="h-100 flex-column align-items-stretch pe-4 border-end"
+          >
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">Kitchen</a>
+              <nav class="nav nav-pills flex-column">
+              </nav>
+              <a class="nav-link" href="#item-2">Arts & Crafs</a>
+              <nav class="nav nav-pills flex-column">
+              </nav>
+              <a class="nav-link" href="#item-3">Landscape</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link" href="#item-1">Living Room</a>
+              <nav class="nav nav-pills flex-column">
+              </nav>
+              <a class="nav-link" href="#item-2">Kids & Toys</a>
+              <nav class="nav nav-pills flex-column">
+              </nav>
+              <a class="nav-link" href="#item-3">Electronics</a>
+              <nav class="nav nav-pills flex-column">
+              </nav>
+            </nav>
+          </nav>
+        </div>
+  
+      <div class="col-8">
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example3"
+          data-bs-smooth-scroll="true"
+          class="scrollspy-example-2"
+          tabindex="0"
+        >
+          <div id="item-1">
+            <h4>Gel</h4>
+            <img src="./img/edges pic.avif" width="100px" alt="edges pic"> 
+            <p>
+              Thick, clear, slightly sticky substance, especially one used in
+              cosmetic or medicinal products.
+            </p>
+          </div>
+          <div id="item-1-1">
+            <h5>Shampoo</h5>
+            <img
+              src="./img/shampoo pic.jpg " width="100px"
+              alt="shampoo picture"
+            />
+            <p>
+              A liquid or cream cleanser used to wash hair and remove dirt, oil,
+              and other buildup
+            </p>
+          </div>
+          <div id="item-1-2">
+            <h5>Leave-in</h5>
+            <img src="./img/leave in con. pic.avif" width="100px" alt="">
+            <p>
+              Make a part of your regular hair care routine to add moisture and
+              help detangle the hair
+            </p>
+          </div>
+          <div id="item-2">
+            <h4>Personal Care</h4>
+            <img src="./img/personal care pic.avif" width="100px" alt="">
+            <p>
+              Cleanser, Toner, Moisturizer, Exfoliator, Facial oil, Sunscreen,
+              Lip balm, Eye cream, and Serum.
+            </p>
+          </div>
+          <div id="item-3-2">
+            <h5>Makeup</h5>
+            <img src="./img/makeup pic.jpg" width="100px" alt="makeup pic">
+            <p> Cleanser, foundation, concealer, blush, bronzer, highlighter, eyeshadow, eyeliner, mascara, eyebrows, and lips</p>
+          </div>
+          <div id="item-3">
+            <h4>Beauty Tools</h4>
+            <img src="./img/beaty tool pic.jpg" width="100px" alt="">
+            <p>Jade Roller, Body LED Mask, GloPro, Derma Rolls</p>
+          </div>
+          <div id="item-3-1">
+            <h5>Baby Care Items</h5>
+            <img src="./img/baby care pic.webp" width="100px" alt="baby care pic">
+            <p>Supervising and taking care of a baby's needs to ensure their safety and well-being</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comments</label>
+      </div>
+      <br>
+      <br>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <img src="./img/phone pic.png" width="20px" alt="phone pic">
+              Contact Us
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Available 9 a.m. to 9 p.m. CT  <code>1-212-333-9898</code> </div>
+        
+            <div class="accordion-body">Email: thepinkshopinc@aol.com  <code></code> </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <img src="./img/mission pic.webp" width="70px" alt="mission pic">
+                Companies Mission Statement
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">To enhance natural beauty and cultivate self-confidence through personalized, expert skincare solutions," "Empowering individuals to express their unique beauty with accessible, cruelty-free cosmetics," or "Creating a sustainable beauty experience that celebrates diversity and empowers individuals to look and feel their best.<code></code></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <img src="./img/career pic.jpg" width="70px" alt="career pic">
+                Careers
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action" aria-current="true">
+                  Accountant & Support Agent
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">Stock Manager</button>
+                <button type="button" class="list-group-item list-group-item-action">Delivery Team Member</button>
+                <button type="button" class="list-group-item list-group-item-action">Brand Ambassador</button>
+                <button type="button" class="list-group-item list-group-item-action">I.T Support Member</button>
+              </div> <code>..</code> .</div>
+          </div>
+        </div>
+      </div>
+
+
+    </body>
+</html>
